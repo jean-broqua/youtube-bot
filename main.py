@@ -3,6 +3,7 @@ from discord.ext import commands
 import youtube_dl
 import asyncio
 import sys
+import os
 from functools import partial
 
 # Bot setup
