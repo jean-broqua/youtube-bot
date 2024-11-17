@@ -20,7 +20,8 @@ FFMPEG_OPTIONS = {
 # YouTube_DL options
 YDL_OPTIONS = {
     'format': 'bestaudio/best',
-    'noplaylist': 'True'
+    'noplaylist': 'True',
+    'verbose': True
 }
 queues = {}
 idle_disconnect_time = 300  # 5 minutes in seconds
