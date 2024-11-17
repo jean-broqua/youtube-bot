@@ -21,7 +21,9 @@ FFMPEG_OPTIONS = {
 YDL_OPTIONS = {
     'format': 'bestaudio/best',
     'noplaylist': 'True',
-    'verbose': True
+    'verbose': True,
+    'username': sys.argv[2],  # Your YouTube account email
+    'password': sys.argv[3]  # Your YouTube account password
 }
 queues = {}
 idle_disconnect_time = 300  # 5 minutes in seconds
