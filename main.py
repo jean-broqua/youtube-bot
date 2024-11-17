@@ -22,8 +22,7 @@ YDL_OPTIONS = {
     'format': 'bestaudio/best',
     'noplaylist': 'True',
     'verbose': True,
-    'username': sys.argv[2],  # Your YouTube account email
-    'password': sys.argv[3]  # Your YouTube account password
+    'cookiefile': os.path.join(os.getcwd(), 'cookies.txt')
 }
 queues = {}
 idle_disconnect_time = 300  # 5 minutes in seconds
